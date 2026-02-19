@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Set the base URL for the backend API
 // In production, this would come from an environment variable
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://attendance-backend-2r0f.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
