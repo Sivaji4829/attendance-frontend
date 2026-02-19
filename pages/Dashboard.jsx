@@ -30,7 +30,7 @@ import axios from 'axios';
  * Features real-time system monitoring and institutional analytics.
  */
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://attendance-backend-2r0f.onrender.com/api';
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: { 'Content-Type': 'application/json' },
